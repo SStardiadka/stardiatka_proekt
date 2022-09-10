@@ -11,3 +11,4 @@ for tr in soup.find_all('tr'):
     for td in tr.find_all(['td', 'th']):
         cnt *= 2
 print(cnt)
+print(html)
