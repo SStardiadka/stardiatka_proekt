@@ -1,8 +1,13 @@
 # запртетил_букву
-n1 = ' '.join(input()).split()
-a = ['', 'з', 'а', 'п', 'р', 'е', 'т', 'и',
-     'л', '', 'б', 'у', 'к', 'в', 'у', '']
-b = ['з', 'а', 'п', 'р', 'е', 'т', 'и', 'л', 'б', 'у', 'к', 'в', 'у']
-lst = n1 + a
-lst1 = n1 + b
-print(*lst, min(lst1))
+def zapret_bykvi(name):   
+    alf = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+    str = name + ' запретил букву'
+    lst = []
+    for i in alf:
+        if i in str:
+            lst.append(str + ' ' + i +'\n')
+            str = str.replace(i, '')
+            str= ' '.join(str.split())
+    a = ''.join(lst)
+    return a
+print(zapret_bykvi('тимур'))
