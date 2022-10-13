@@ -2,7 +2,6 @@
 class Workstr:   
     
     def zapret_bykvi(self, name = 'Дима'):
-        self.name = name
         alf = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
         str = name + ' запретил букву'
         lst = []
@@ -15,4 +14,4 @@ class Workstr:
         return a
 
 zp = Workstr()
-print(zp.zapret_bykvi())
+print(zp.zapret_bykvi('коля'))
