@@ -18,7 +18,7 @@ for i in values:
     if i >= 200:
         color.append('red')
 
-plt.bar(index, values, color = color, rwidth=0.8)
+plt.bar(index, values, color = color)
 
 plt.grid()
 
