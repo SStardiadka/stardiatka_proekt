@@ -19,14 +19,14 @@ if question == '1799':
     # obj.save('hw3.mp3')
     os.system(r'C:\stardiatka_proekt\python\mp3\viktorina_pychkin\hw3.mp3')
     print('Классно!!! А день и месяц его рождения знаешь?')
-birthday = input()
+birthday = input().lower()
 while birthday != '6.06' and birthday != '6 июня':
     print('Неверный день рождения.Подумай еще')
     text = 'Неверный день рождения.Подумай еще.'
     # obj = gTTS(text, lang='ru')
     # obj.save('hw4.mp3')
     os.system(r'C:\stardiatka_proekt\python\mp3\viktorina_pychkin\hw4.mp3')
-    birthday = input('Неверный день рождения.Подумай еще')
+    birthday = input('Неверный день рождения.Подумай еще').lower()
 if birthday == ('6.06') or birthday == ('6 июня'):
     text = 'Верно. Молодец!'
     # obj = gTTS(text, lang='ru')
