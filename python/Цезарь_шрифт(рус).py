@@ -1,5 +1,4 @@
-lst = input().split() #  шифр цезаря со здвигом на длинну
-#  слов и сохранением больших и малых букв и знаков припинания
+lst = input().split()
 a, lt = [],[]
 for i in lst:
     for j in i:
@@ -11,7 +10,7 @@ lst1 =[i for i in lst]
 lst2 =[i.lower() for i in lst]
 for i in range(len(lst1)):
     lst1[i] = lst1[i].strip(".\",;:-?!")
-    
+print(lst, lst1)
 te_xt = lst2
 c,e = [],[]
 for i in range(len(te_xt)):
@@ -30,6 +29,7 @@ for i in range(len(te_xt)):
     e.append(c)
     c = []
 
+print(e)
 for i in range(len(lt)):
     for j in range(len(lt[i])):
         if lt[i][j] == lt[i][j].upper():
@@ -38,4 +38,3 @@ for i in range(len(lt)):
             e[i][j] = e[i][j].lower()
 for i in e:          
     print(''.join(i), end=' ')
-
