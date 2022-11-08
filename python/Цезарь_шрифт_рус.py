@@ -1,4 +1,5 @@
-lst = input().split()
+lst = input().split() # шифр цезаря руский со здвигом и 
+#  сохранением больших и малых букв и знаков припинания
 a, lt = [],[]
 for i in lst:
     for j in i:
@@ -10,26 +11,25 @@ lst1 =[i for i in lst]
 lst2 =[i.lower() for i in lst]
 for i in range(len(lst1)):
     lst1[i] = lst1[i].strip(".\",;:-?!")
-print(lst, lst1)
+
 te_xt = lst2
 c,e = [],[]
+sag = 10
 for i in range(len(te_xt)):
     for j in te_xt[i]:
-        sag = len(lst1[i])
         if j.isalpha():
             b = ord(j) + sag
-            if b > 122:
-                c.append(chr(b - 26))
-            elif b < 96:
-                c.append(chr(b + 26))
+            if b > 1103:
+                c.append(chr(b - 32))
+            elif b < 1071:
+                c.append(chr(b + 32))
             else:
                 c.append(chr(b))
         else:
-            c += j
+            c.append(j)
     e.append(c)
     c = []
 
-print(e)
 for i in range(len(lt)):
     for j in range(len(lt[i])):
         if lt[i][j] == lt[i][j].upper():
