@@ -26,7 +26,7 @@ for i in range(len(te_xt)):
             else:
                 c.append(chr(b))
         else:
-            c += j
+            c.append(j)
     e.append(c)
     c = []
 
