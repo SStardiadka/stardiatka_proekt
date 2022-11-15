@@ -14,7 +14,7 @@ for i in range(len(lst1)):
 
 te_xt = lst2
 c,e = [],[]
-sag = 10
+sag = -7
 for i in range(len(te_xt)):
     for j in te_xt[i]:
         if j.isalpha():
