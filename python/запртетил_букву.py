@@ -11,3 +11,4 @@ def zapret_bykvi(name):
     a = ''.join(lst)
     return a
 print(zapret_bykvi('тимур'))
+zapret_bykvi.__class__
