@@ -7,6 +7,7 @@ def zapret_bykvi(name):
     lst = []
     for i in alf:
         if i in str:
+
             lst.append(str + ' ' + i +'\n')
             str = str.replace(i, '')
             str= ' '.join(str.split())
