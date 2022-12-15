@@ -1,7 +1,8 @@
 import telebot
 from telebot import types
+from config import BOT_TOKEN_ST
 
-bot = telebot.TeleBot('5665309474:AAHXzsdWimYznYy0KBOarFrEHW_wXO12zdc')
+bot = telebot.TeleBot(BOT_TOKEN_ST)
 
 @bot.message_handler(content_types=['text'])
 def get_text_text(message):
