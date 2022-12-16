@@ -3,7 +3,7 @@ import random
 from aiogram import Bot, Dispatcher, executor
 from aiogram.types import Message
 from aiogram.dispatcher.filters import Text
-from config import BOT_TOKEN 
+from Telbot.config import BOT_TOKEN 
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота, полученный у @BotFather
 
