@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-from config import BOT_TOKEN_ST
+from Telbot.config import BOT_TOKEN_ST
 
 bot = telebot.TeleBot(BOT_TOKEN_ST)
 
