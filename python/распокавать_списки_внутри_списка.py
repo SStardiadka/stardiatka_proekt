@@ -6,4 +6,5 @@ def get_line_list(d,a=[]):
         elif isinstance(i, list):
             get_line_list(i, a)
              
-    return a   
+    return a 
+print(get_line_list([[[[9]]], [1, 2], [[8]]]))
