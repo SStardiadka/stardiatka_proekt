@@ -9,4 +9,4 @@ def fib_rec(N, f=[1]):
 
 
 N = int(input())
-fib_rec(N)
+print(fib_rec(N))
