@@ -8,20 +8,19 @@ class Mail:
     s = 1
     
     def checking(self, nik):
-        self.nik = nik
         if nik not in self.dk:
             self.lst.append((f'{nik}@Дмитрий.by {self.s} {date.today()} {datetime.now().time()}').split())
             self.s += 1
-            print('OK')
+            print(f'"OK" ник {nik} зарегистрирован за вами!')
             self.dk.setdefault(nik, 0)
         else:
             self.dk[nik] = self.dk.setdefault(nik, 0) + 1
-            print(nik + str(self.dk[nik]))
+            print(F'Ник {nik} есть в базе. подсказка {nik + str(self.dk[nik])} сфармированна и добавена в базу')
     
-    def nik_numer(self,numer):
+    def checking_nik_numer(self,numer):
         for i in self.lst:
             if numer == i[1]:
-                print(f'Под номером {i[1]} зарегистрирован ник: {i[0]}')
+                print(f'Под номером {i[1]} зарегистрирован ник: {i}')
             
 
 res = Mail()
@@ -32,5 +31,5 @@ print(res.dk)
 print()
 print(res.lst)
 print()
-res.nik_numer('2')
+res.checking_nik_numer('2')
 

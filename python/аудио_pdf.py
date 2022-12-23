@@ -8,8 +8,8 @@ def pdf_audio(pdf_path):
         pdf = PdfFileReader(f)
         for i in pdf.pages:
             text.append(i.extractText())
-    speak(' '.join(text), 'ru',save=True, file='audio_book.mp3')
+    speak(' '.join(text), save=True, file='audio_book1.mp3')
 
 
-pdf_audio(r'pdf_path')  
+pdf_audio(r'C:\Users\user\Desktop\10.pdf')  
 
