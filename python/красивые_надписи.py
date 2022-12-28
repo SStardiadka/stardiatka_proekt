@@ -1,5 +1,5 @@
 from art import *
-tprint(randart())
+# tprint(randart())
 
-print(text2art("art",font='block',chr_ignore=True))
-tprint("test",font="rnd-large")
+print(text2art("mitr",font='block',chr_ignore=True))
+# tprint("test",font="rnd-large")
