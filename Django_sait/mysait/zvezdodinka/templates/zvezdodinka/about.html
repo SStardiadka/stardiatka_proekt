@@ -1,0 +1,20 @@
+{% extends 'zvezdodinka/sablon.html' %}
+
+{% block title %}про нас{% endblock %}
+
+{% block content %}
+<div class="features"> 
+    <h1>новости</h1>
+{% if news %}
+   {% for k in news %}
+    <div class='alert'>
+        <h2>{{ k.title }}</h2>
+        <p>{{k.anons}}</p>
+    </div>
+    {% endfor %}
+{% else %}
+        <p>у вас нет новостей!</p>
+{% endif %}
+
+</div>
+{% endblock %}
