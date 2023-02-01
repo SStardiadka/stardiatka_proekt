@@ -1,16 +1,16 @@
 
 img{
-    border: 1px solid black
+    border: 1px solid white
 }
 
 h2{
-    border: 3px dotted blue
+    border: 3px dotted white
 }
 
 
 aside {
     float: left;
-    background: rgba(255, 255, 0, 0);
+    background: rgba(255, 255, 255, 0);
     width: 12%;
     padding: 1%;
     height: 100vh;
@@ -20,7 +20,7 @@ aside {
 
 
 aside ul li {
-    background: rgba(0, 0, 0, 0.226);
+    background:rgba(0, 0, 0, 0.226);
     color: white;
     transition: transform .3s ease;   
 }
@@ -31,10 +31,13 @@ aside ul li:hover, aside ul a:hover{
     transform: scale(1.1);
 }
 
+aside h2{
+  color: white;
+}
 
 main .features{
     float: left;
-    color: green;
+    color:white;
     margin-top: 100px;
     text-align: center;
     width: 75%;
@@ -54,7 +57,7 @@ main .features h3 {
 main .features p {
     /* background-color: #fff; */
     /* text-align:left; */
-    color: black;
+    color: white;
     font-size: 30px;
     max-width: 400px;
     margin: 20px auto;

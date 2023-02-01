@@ -1,0 +1,9 @@
+джанго команды
+1) миграция "python manage.py makemigrations"
+            "python manage.py migrate"
+
+2) войти в консоль джанго "python manage.py shell"
+
+3) запуск локального сервера "python manage.py runserver"
+
+4) регистрация админки  python manage.py createsuperuser
