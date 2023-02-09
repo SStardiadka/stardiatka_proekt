@@ -1,0 +1,1 @@
+# stardiatka_proekt
