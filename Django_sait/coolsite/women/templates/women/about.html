@@ -1,0 +1,14 @@
+{% extends 'women/base.html' %}
+{% load static %}
+
+{% block content %}
+<body color="#aedaa6" background="{% static 'women/images/BRONZ.png'%}">
+<h1 style="color: red;">{{title}}</h1>
+        {% for i in lst %}
+
+        <h2 style=" background-color: rgb(255, 255, 255);text-align: center;">{{i}}<h2>
+
+        {% endfor %}       
+</body>
+
+{% endblock %}

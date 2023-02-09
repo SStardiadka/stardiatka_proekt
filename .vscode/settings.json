@@ -10,5 +10,8 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
         "python"
-    ]
+    ],
+    "python.formatting.provider": "black",
+    "scssFormatter.singleQuote": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

@@ -1,7 +1,11 @@
-# скачать ютуб видио
+# скачать ютуб видиo
 from pytube import YouTube
-link = r'https://youtu.be/0u0swrAmeDw'
-yt = YouTube(link)
-ys = yt.streams.get_highest_resolution()
-ys.download(r'C:\stardiatka_proekt-1\python\Wfiles')
-print('ok')
+import time
+from tqdm import tqdm
+
+mylist = ["ok"]
+for i in tqdm(mylist):
+    yt = YouTube(r"https://youtu.be/j3_K4rwGkFo")
+    ys = yt.streams.get_highest_resolution()
+    ys.download(r"C:\stardiatka_proekt-1\python\Wfiles")
+    print(i)
