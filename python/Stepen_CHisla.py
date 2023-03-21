@@ -1,8 +1,10 @@
-def stepen(a,b, d =1):
+def stepen(a, b, d=1):
     for i in range(b):
-        b -=1
-        d*=a
-        return stepen(a, b,d)
+        b -= 1
+        d *= a
+        return stepen(a, b, d)
     return d
-print(stepen(2, 10))
+
+
+print(stepen(1123456, 100))
 #  степень числа рекурсия
