@@ -6,5 +6,5 @@ def stepen(a, b, d=1):
     return d
 
 
-print(stepen(1123456, 100))
+print(stepen(100, 5))
 #  степень числа рекурсия
