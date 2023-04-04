@@ -4,14 +4,18 @@ def text_decor(funk):
         for i in args:
             i = i * 10
             yield args
+
     return init
+
+
 @text_decor
 def simple_func(*args):
     for i in args:
         print(i)
 
-for i in simple_func(3, 5, 7, -1):
-    print(i)
+
+print(list(simple_func(3, 5, 7, -1)))
+
 
 # Вывод
 # Hello
