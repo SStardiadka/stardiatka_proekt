@@ -1,6 +1,6 @@
 import requests
 
-with open(r"C:\Users\user\Desktop\dataset_3378_3 (1).txt", encoding="utf-8") as f:
+with open(r"C:\Users\user\Desktop\dataset_3378_3.txt", encoding="utf-8") as f:
     r = requests.get(f.readline().strip())
 
 while "We" not in r.text:
