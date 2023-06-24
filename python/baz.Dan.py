@@ -40,5 +40,9 @@ c = db.cursor()
 # db.commit()
 
 # db.close()
-c.execute("SELECT * FROM rowid")
+c.execute("SELECT * FROM articles")
+with open(
+    r"C:\stardiatka_proekt-1\python\Wfiles\temp.txt", "w", encoding="utf-8"
+) as file:
+    file.write(f"{c.fetchall()}")
 print(c.fetchall())

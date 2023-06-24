@@ -1,8 +1,0 @@
- *** 170
-Видеокарта ZOTAC GeForce RTX 3060 Twin Edge 12GB *** 1
-Видеокарта RTX 2060 PNY (VCG20606BLMPB) *** 1
-Видеокарта GT 210 Biostar (VN2103NHG6) *** 120
-Palit GeForce RTX 3060 Ti Dual 8GB GDDR6, НОВЫЕ *** 1
-Видеокарта RTX 3050 &#x27;&#x27;GigaByte&#x27;&#x27; 8Gb GDDR6 (128bit *** 1
-Видеокарта GF RTX 2060 &#x27;&#x27;MSI&#x27;&#x27; 6144Mb GDDR6 (192bi *** 1
-7
