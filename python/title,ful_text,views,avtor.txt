@@ -1,0 +1,5 @@
+title,ful_text,views,avtor
+Dima ze best,Dima ze best ze Dima ze best ze,100,DIMA
+Fitri ze best,Dima ze best ze Dima ze best ze,10,Fitri
+HHHitri ze best,Dima ze best ze Dima ze best ze,1000,HHHFitri
+mitri ze best,Dima ze best ze Dima ze best ze,1000,kracavhik

@@ -1,1 +1,0 @@
-print({kl: {k:v for k,v in zip(['1','2','3'],[1,2,3])} for kl, vl in range(3) })

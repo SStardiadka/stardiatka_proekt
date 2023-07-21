@@ -21,23 +21,29 @@ matr = [
 ]
 
 
-@Speed
-def count_zeros() -> list:
-    lst = [*range(10_000_000)]
-    lst = [str(i) for i in lst]
-    return lst
-
-
-@Speed
-def count_zeros1() -> int:
+def prime_number(num):
+    """
+    Определяет простое ли число
+    """
+    if num == 2:
+        return True
     s = 0
-    for i in matr:
-        for j in i:
-            if j == 1:
-                s += matr.index(i)
-                break
-    return s
+    if num > 1:
+        if num % 2 != 0:
+            for i in range(3, int(num ** (1 / 2)), 2):
+                if num % i == 0:
+                    s += 1
+            if s > 0:
+                return False
+            return True
+    return False
 
 
-count_zeros1()
-count_zeros()
+@Speed
+def get():
+    for i in range(1_00000):
+        if prime_number(i):
+            print(i)
+
+
+get()
